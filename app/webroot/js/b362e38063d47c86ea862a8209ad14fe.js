@@ -1,0 +1,14 @@
+$(document).ready(function () {$("#submit-1131275746").bind("click", function (event) {$.ajax({data:$("#submit-1131275746").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#items").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Date%20Test"});
+return false;});
+$("#submit-699038070").bind("click", function (event) {$.ajax({data:$("#submit-699038070").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Fridaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Date%20Test"});
+return false;});
+$("#submit-1939480490").bind("click", function (event) {$.ajax({data:$("#submit-1939480490").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Fridaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Date%20Test"});
+return false;});
+$("#submit-1436157764").bind("click", function (event) {$.ajax({data:$("#submit-1436157764").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Saturdaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Date%20Test"});
+return false;});
+$("#submit-970817714").bind("click", function (event) {$.ajax({data:$("#submit-970817714").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Saturdaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Date%20Test"});
+return false;});
+$("#submit-1264915962").bind("click", function (event) {$.ajax({data:$("#submit-1264915962").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Sundaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Date%20Test"});
+return false;});
+$("#submit-1828000043").bind("click", function (event) {$.ajax({data:$("#submit-1828000043").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Sundaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Date%20Test"});
+return false;});});

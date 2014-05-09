@@ -1,0 +1,2 @@
+$(document).ready(function () {$("#submit-3791857").bind("click", function (event) {$.ajax({data:$("#submit-3791857").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#items").html(data);}, type:"post", url:"\/planner\/Events\/detail\/mountainhouse2013palooza"});
+return false;});});

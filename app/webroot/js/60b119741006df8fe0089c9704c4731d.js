@@ -1,0 +1,18 @@
+$(document).ready(function () {$("#submit-1101436345").bind("click", function (event) {$.ajax({data:$("#submit-1101436345").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#items").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Test%20Event"});
+return false;});
+$("#submit-415488610").bind("click", function (event) {$.ajax({data:$("#submit-415488610").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Fridaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Test%20Event"});
+return false;});
+$("#submit-1483860918").bind("click", function (event) {$.ajax({data:$("#submit-1483860918").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Fridaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Test%20Event"});
+return false;});
+$("#submit-1236613241").bind("click", function (event) {$.ajax({data:$("#submit-1236613241").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Saturdaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Test%20Event"});
+return false;});
+$("#submit-356023059").bind("click", function (event) {$.ajax({data:$("#submit-356023059").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Saturdaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Test%20Event"});
+return false;});
+$("#submit-1386835081").bind("click", function (event) {$.ajax({data:$("#submit-1386835081").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Sundaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Test%20Event"});
+return false;});
+$("#submit-245745297").bind("click", function (event) {$.ajax({data:$("#submit-245745297").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Sundaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Test%20Event"});
+return false;});
+$("#submit-880781848").bind("click", function (event) {$.ajax({data:$("#submit-880781848").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Mondaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Test%20Event"});
+return false;});
+$("#submit-1587686032").bind("click", function (event) {$.ajax({data:$("#submit-1587686032").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Mondaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Test%20Event"});
+return false;});});

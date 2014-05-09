@@ -1,0 +1,18 @@
+$(document).ready(function () {$("#submit-1172532399").bind("click", function (event) {$.ajax({data:$("#submit-1172532399").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#items").html(data);}, type:"post", url:"\/planner\/events\/detail\/Beach%20Trip%202014"});
+return false;});
+$("#submit-169683211").bind("click", function (event) {$.ajax({data:$("#submit-169683211").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Fridaydetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/Beach%20Trip%202014"});
+return false;});
+$("#submit-275475717").bind("click", function (event) {$.ajax({data:$("#submit-275475717").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Fridaydetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/Beach%20Trip%202014"});
+return false;});
+$("#submit-1416098747").bind("click", function (event) {$.ajax({data:$("#submit-1416098747").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Saturdaydetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/Beach%20Trip%202014"});
+return false;});
+$("#submit-1181216609").bind("click", function (event) {$.ajax({data:$("#submit-1181216609").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Saturdaydetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/Beach%20Trip%202014"});
+return false;});
+$("#submit-1243694021").bind("click", function (event) {$.ajax({data:$("#submit-1243694021").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Sundaydetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/Beach%20Trip%202014"});
+return false;});
+$("#submit-497372605").bind("click", function (event) {$.ajax({data:$("#submit-497372605").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Sundaydetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/Beach%20Trip%202014"});
+return false;});
+$("#submit-1451375047").bind("click", function (event) {$.ajax({data:$("#submit-1451375047").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Mondaydetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/Beach%20Trip%202014"});
+return false;});
+$("#submit-1681547117").bind("click", function (event) {$.ajax({data:$("#submit-1681547117").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Mondaydetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/Beach%20Trip%202014"});
+return false;});});

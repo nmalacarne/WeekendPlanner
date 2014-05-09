@@ -1,0 +1,18 @@
+$(document).ready(function () {$("#submit-754641751").bind("click", function (event) {$.ajax({data:$("#submit-754641751").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#items").html(data);}, type:"post", url:"\/planner\/events\/detail\/tobiasparker"});
+return false;});
+$("#submit-402156235").bind("click", function (event) {$.ajax({data:$("#submit-402156235").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Fridaydetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/tobiasparker"});
+return false;});
+$("#submit-1568015380").bind("click", function (event) {$.ajax({data:$("#submit-1568015380").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Fridaydetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/tobiasparker"});
+return false;});
+$("#submit-37858078").bind("click", function (event) {$.ajax({data:$("#submit-37858078").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Saturdaydetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/tobiasparker"});
+return false;});
+$("#submit-1795657117").bind("click", function (event) {$.ajax({data:$("#submit-1795657117").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Saturdaydetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/tobiasparker"});
+return false;});
+$("#submit-742005680").bind("click", function (event) {$.ajax({data:$("#submit-742005680").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Sundaydetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/tobiasparker"});
+return false;});
+$("#submit-2085615178").bind("click", function (event) {$.ajax({data:$("#submit-2085615178").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Sundaydetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/tobiasparker"});
+return false;});
+$("#submit-426635450").bind("click", function (event) {$.ajax({data:$("#submit-426635450").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Mondaydetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/tobiasparker"});
+return false;});
+$("#submit-188652016").bind("click", function (event) {$.ajax({data:$("#submit-188652016").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Mondaydetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/tobiasparker"});
+return false;});});

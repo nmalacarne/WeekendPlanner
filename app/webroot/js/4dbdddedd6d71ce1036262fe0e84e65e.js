@@ -1,0 +1,18 @@
+$(document).ready(function () {$("#submit-766811502").bind("click", function (event) {$.ajax({data:$("#submit-766811502").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#items").html(data);}, type:"post", url:"\/planner\/Events\/detail\/New%20Event%20Parker"});
+return false;});
+$("#submit-1405272554").bind("click", function (event) {$.ajax({data:$("#submit-1405272554").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Fridaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/New%20Event%20Parker"});
+return false;});
+$("#submit-668130100").bind("click", function (event) {$.ajax({data:$("#submit-668130100").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Fridaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/New%20Event%20Parker"});
+return false;});
+$("#submit-162328832").bind("click", function (event) {$.ajax({data:$("#submit-162328832").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Saturdaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/New%20Event%20Parker"});
+return false;});
+$("#submit-35168191").bind("click", function (event) {$.ajax({data:$("#submit-35168191").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Saturdaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/New%20Event%20Parker"});
+return false;});
+$("#submit-1381163812").bind("click", function (event) {$.ajax({data:$("#submit-1381163812").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Sundaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/New%20Event%20Parker"});
+return false;});
+$("#submit-1888163234").bind("click", function (event) {$.ajax({data:$("#submit-1888163234").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Sundaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/New%20Event%20Parker"});
+return false;});
+$("#submit-300308396").bind("click", function (event) {$.ajax({data:$("#submit-300308396").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Mondaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/New%20Event%20Parker"});
+return false;});
+$("#submit-2706474").bind("click", function (event) {$.ajax({data:$("#submit-2706474").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Mondaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/New%20Event%20Parker"});
+return false;});});

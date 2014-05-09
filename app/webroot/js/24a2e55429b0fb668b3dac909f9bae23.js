@@ -1,0 +1,2 @@
+$(document).ready(function () {$("#submit-1174646091").bind("click", function (event) {$.ajax({data:$("#submit-1174646091").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#items").html(data);}, type:"post", url:"\/planner\/planner\/events\/detail"});
+return false;});});

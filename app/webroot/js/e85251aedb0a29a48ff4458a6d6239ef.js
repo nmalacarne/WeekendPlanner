@@ -1,0 +1,18 @@
+$(document).ready(function () {$("#submit-1804439241").bind("click", function (event) {$.ajax({data:$("#submit-1804439241").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#items").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Super%20Fun%20Party"});
+return false;});
+$("#submit-1246363667").bind("click", function (event) {$.ajax({data:$("#submit-1246363667").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Fridaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Super%20Fun%20Party"});
+return false;});
+$("#submit-543161866").bind("click", function (event) {$.ajax({data:$("#submit-543161866").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Fridaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Super%20Fun%20Party"});
+return false;});
+$("#submit-1054448988").bind("click", function (event) {$.ajax({data:$("#submit-1054448988").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Saturdaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Super%20Fun%20Party"});
+return false;});
+$("#submit-2086711797").bind("click", function (event) {$.ajax({data:$("#submit-2086711797").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Saturdaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Super%20Fun%20Party"});
+return false;});
+$("#submit-1366185425").bind("click", function (event) {$.ajax({data:$("#submit-1366185425").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Sundaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Super%20Fun%20Party"});
+return false;});
+$("#submit-696528094").bind("click", function (event) {$.ajax({data:$("#submit-696528094").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Sundaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Super%20Fun%20Party"});
+return false;});
+$("#submit-765257341").bind("click", function (event) {$.ajax({data:$("#submit-765257341").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Mondaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Super%20Fun%20Party"});
+return false;});
+$("#submit-543030814").bind("click", function (event) {$.ajax({data:$("#submit-543030814").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Mondaydetails").html(data);}, type:"post", url:"\/planner\/Events\/detail\/Super%20Fun%20Party"});
+return false;});});

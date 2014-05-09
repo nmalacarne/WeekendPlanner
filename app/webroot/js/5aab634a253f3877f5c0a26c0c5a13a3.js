@@ -1,0 +1,2 @@
+$(document).ready(function () {$("#submit-486871229").bind("click", function (event) {$.ajax({data:$("#submit-486871229").closest("form").serialize(), type:"post", url:"\/planner\/events\/detail\/asdfadf"});
+return false;});});

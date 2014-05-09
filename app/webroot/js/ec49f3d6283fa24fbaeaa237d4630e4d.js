@@ -1,0 +1,2 @@
+$(document).ready(function () {$("#submit-976606342").bind("click", function (event) {$.ajax({data:$("#submit-976606342").closest("form").serialize(), type:"post", url:"\/planner\/events\/detail\/Beach%20Trip%202014"});
+return false;});});

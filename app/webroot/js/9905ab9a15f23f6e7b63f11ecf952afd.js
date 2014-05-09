@@ -1,0 +1,2 @@
+$(document).ready(function () {$("#submit-1286503976").bind("click", function (event) {$.ajax({data:$("#submit-1286503976").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#items").html(data);}, type:"post", url:"\/planner\/events\/detail\/params%5B0%5D:party"});
+return false;});});

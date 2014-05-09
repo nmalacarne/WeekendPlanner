@@ -1,0 +1,18 @@
+$(document).ready(function () {$("#submit-642937339").bind("click", function (event) {$.ajax({data:$("#submit-642937339").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#items").html(data);}, type:"post", url:"\/planner\/Events\/detail\/DateTest5"});
+return false;});
+$("#submit-1767266626").bind("click", function (event) {$.ajax({data:$("#submit-1767266626").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#1details").html(data);}, type:"post", url:"\/planner\/Events\/detail\/DateTest5"});
+return false;});
+$("#submit-1064864826").bind("click", function (event) {$.ajax({data:$("#submit-1064864826").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#1details").html(data);}, type:"post", url:"\/planner\/Events\/detail\/DateTest5"});
+return false;});
+$("#submit-484050696").bind("click", function (event) {$.ajax({data:$("#submit-484050696").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#1details").html(data);}, type:"post", url:"\/planner\/Events\/detail\/DateTest5"});
+return false;});
+$("#submit-1234663849").bind("click", function (event) {$.ajax({data:$("#submit-1234663849").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#1details").html(data);}, type:"post", url:"\/planner\/Events\/detail\/DateTest5"});
+return false;});
+$("#submit-1569461094").bind("click", function (event) {$.ajax({data:$("#submit-1569461094").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#1details").html(data);}, type:"post", url:"\/planner\/Events\/detail\/DateTest5"});
+return false;});
+$("#submit-1180578848").bind("click", function (event) {$.ajax({data:$("#submit-1180578848").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#1details").html(data);}, type:"post", url:"\/planner\/Events\/detail\/DateTest5"});
+return false;});
+$("#submit-412619161").bind("click", function (event) {$.ajax({data:$("#submit-412619161").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#1details").html(data);}, type:"post", url:"\/planner\/Events\/detail\/DateTest5"});
+return false;});
+$("#submit-1063405297").bind("click", function (event) {$.ajax({data:$("#submit-1063405297").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#1details").html(data);}, type:"post", url:"\/planner\/Events\/detail\/DateTest5"});
+return false;});});

@@ -1,0 +1,2 @@
+$(document).ready(function () {$("#submit-177799071").bind("click", function (event) {$.ajax({data:$("#submit-177799071").closest("form").serialize(), type:"post", url:"\/planner\/events\/detail\/party"});
+return false;});});

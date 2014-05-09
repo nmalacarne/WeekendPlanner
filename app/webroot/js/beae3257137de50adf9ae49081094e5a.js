@@ -1,0 +1,2 @@
+$(document).ready(function () {$("#submit-1784362099").bind("click", function (event) {$.ajax({data:$("#submit-1784362099").closest("form").serialize(), type:"post", url:"\/planner\/Events\/detail\/tobiasparker"});
+return false;});});

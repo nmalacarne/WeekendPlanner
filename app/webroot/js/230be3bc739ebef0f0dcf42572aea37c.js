@@ -1,0 +1,18 @@
+$(document).ready(function () {$("#submit-951655897").bind("click", function (event) {$.ajax({data:$("#submit-951655897").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#items").html(data);}, type:"post", url:"\/planner\/events\/detail\/party"});
+return false;});
+$("#submit-896908665").bind("click", function (event) {$.ajax({data:$("#submit-896908665").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Day1MorningDetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/party"});
+return false;});
+$("#submit-1583767936").bind("click", function (event) {$.ajax({data:$("#submit-1583767936").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Day1MorningDetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/party"});
+return false;});
+$("#submit-760582220").bind("click", function (event) {$.ajax({data:$("#submit-760582220").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Day2MorningDetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/party"});
+return false;});
+$("#submit-430003020").bind("click", function (event) {$.ajax({data:$("#submit-430003020").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Day2MorningDetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/party"});
+return false;});
+$("#submit-2128024255").bind("click", function (event) {$.ajax({data:$("#submit-2128024255").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Day3MorningDetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/party"});
+return false;});
+$("#submit-566475979").bind("click", function (event) {$.ajax({data:$("#submit-566475979").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Day3MorningDetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/party"});
+return false;});
+$("#submit-10809369").bind("click", function (event) {$.ajax({data:$("#submit-10809369").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Day4MorningDetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/party"});
+return false;});
+$("#submit-887497851").bind("click", function (event) {$.ajax({data:$("#submit-887497851").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#Day4MorningDetails").html(data);}, type:"post", url:"\/planner\/events\/detail\/party"});
+return false;});});
